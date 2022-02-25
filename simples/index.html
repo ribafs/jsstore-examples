@@ -1,0 +1,50 @@
+<script type="text/javascript" src="list.min.js"></script>
+<div id="hacker-list">
+
+  <input class="search" /><br>
+  <span class="sort" data-sort="name">Clique para Ordenar pelo nome</span><br>
+  <span class="sort" data-sort="city">Clique para Ordenar pela cidade</span>
+
+  <ul class="list">
+   <li>
+     <h3 class="name">Jonny</h3>
+     <p class="city">Stockholm</p>
+   </li>
+   <li>
+     <h3 class="name">Jonas</h3>
+     <p class="city">Berlin</p>
+   </li>
+   <li>
+     <h3 class="name">Ribamar</h3>
+     <p class="city">Fortaleza</p>
+   </li>
+   <li>
+     <h3 class="name">Tiago</h3>
+     <p class="city">Campos do Jordão</p>
+   </li>
+   <li>
+     <h3 class="name">José Ferreira</h3>
+     <p class="city">Euzébio</p>
+   </li>
+   <li>
+     <h3 class="name">Fátima</h3>
+     <p class="city">Fortaleza</p>
+   </li>
+   <li>
+     <h3 class="name">Elias</h3>
+     <p class="city">Fortaleza</p>
+   </li>
+   <li>
+     <h3 class="name">Julieta</h3>
+     <p class="city">Euzébio</p>
+   </li>
+  </ul>
+</div>
+
+<script>
+var options = {
+  valueNames: [ 'name', 'city' ]
+};
+
+var hackerList = new List('hacker-list', options);
+</script>
